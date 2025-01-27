@@ -24,6 +24,7 @@ static const char* runtime_paths[] = {
     "/.local/share/Steam/ubuntu12_32/steam-runtime",
     "/.steam/ubuntu12_32/steam-runtime",
     "/.steam/debian-installation/ubuntu12_32/steam-runtime",
+    "/usr/share/steam/compatibilitytools.d"
 };
 
 
