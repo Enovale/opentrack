@@ -185,7 +185,7 @@
             </sizepolicy>
            </property>
            <property name="maximum">
-            <number>2147483647</number>
+            <number>9223372036854775807</number>
            </property>
           </widget>
          </item>

@@ -118,7 +118,7 @@ module_status wine::initialize()
     if (s.variant_proton && s.variant_proton_steamplay) {
         // wine prefix is dependend on steam
 
-        if (s.proton_appid == 0)
+        if (s.proton_appid == 0L)
             return error(tr("Must specify application id for Proton (Steam Play)"));
 
         auto [prefix, error_string, success] = make_wineprefix(s.proton_appid);
